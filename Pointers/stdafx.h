@@ -1,5 +1,5 @@
 ﻿#pragma once
 //Подключаемые библиотеки
 #include <iostream>
-//#include <stdarg.h>
+#include <stdarg.h>
 using namespace std;
