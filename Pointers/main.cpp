@@ -1,7 +1,5 @@
 ﻿#include "stdafx.h"
-#define tab "\t"
-//#define POINTERS_BASICS
-
+#include "define.h"
 
 //Главная функция
 void main()
