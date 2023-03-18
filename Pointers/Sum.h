@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 template <typename T> T Sum(T n, ...)
 {
 	T* arg = &n;
@@ -12,7 +12,7 @@ template <typename T> T Sum(T n, ...)
 }
 const char* Sum(char n, ...)
 {
-	return "Я не хочу суммировать буквы. Поэтому вот тебе ошибка - ERROR!";
+	return "РЇ РЅРµ С…РѕС‡Сѓ СЃСѓРјРјРёСЂРѕРІР°С‚СЊ Р±СѓРєРІС‹. РџРѕСЌС‚РѕРјСѓ РІРѕС‚ С‚РµР±Рµ РѕС€РёР±РєР° - ERROR!";
 }
 template <typename T> T Sum_v2(T n, ...)
 {
@@ -30,5 +30,5 @@ template <typename T> T Sum_v2(T n, ...)
 }
 const char* Sum_v2(char n, ...)
 {
-	return "Я не хочу суммировать буквы. Поэтому вот тебе ошибка - ERROR!";
+	return "РЇ РЅРµ С…РѕС‡Сѓ СЃСѓРјРјРёСЂРѕРІР°С‚СЊ Р±СѓРєРІС‹. РџРѕСЌС‚РѕРјСѓ РІРѕС‚ С‚РµР±Рµ РѕС€РёР±РєР° - ERROR!";
 }
