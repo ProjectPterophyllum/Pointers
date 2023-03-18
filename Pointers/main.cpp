@@ -10,5 +10,15 @@
 void main()
 {
 	setlocale(LC_ALL, "");
-	cout << Sum(1, 10, 1, 4, NULL) << endl << Sum_v2(1, 10, 1, 4, NULL);
+	cout << Sum(1.00, 10.00, 1.00, 4.00, (double)NULL)
+		<< endl
+		<< Sum_v2(1.00, 10.00, 1.00, 4.00, (double)NULL)
+		<< endl
+		<< Sum('A', 'B', 'C', NULL)
+		<< endl
+		<< Sum_v2('A', 'B', 'C', NULL)
+		<< endl
+		<< Sum(13, 12, 15, NULL)
+		<< endl
+		<< Sum_v2(13, 12, 15, NULL);
 }

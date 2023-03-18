@@ -3,8 +3,16 @@ template <typename T> T Sum(T n, ...)
 {
 	T* arg = &n;
 	T sum = 0;
-	for (arg; *arg != 0; arg++) sum += *arg;
+	while (*arg)
+	{
+		sum += *arg;
+		arg++;
+	}
 	return sum;
+}
+const char* Sum(char n, ...)
+{
+	return "Я не хочу суммировать буквы. Поэтому вот тебе ошибка - ERROR!";
 }
 template <typename T> T Sum_v2(T n, ...)
 {
@@ -19,4 +27,8 @@ template <typename T> T Sum_v2(T n, ...)
 	}
 	va_end(arg);
 	return sum;
+}
+const char* Sum_v2(char n, ...)
+{
+	return "Я не хочу суммировать буквы. Поэтому вот тебе ошибка - ERROR!";
 }
