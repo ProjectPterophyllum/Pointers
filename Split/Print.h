@@ -1,5 +1,5 @@
-#pragma once
-//Вывод массива в консоль.
+п»ї#pragma once
+//Р’С‹РІРѕРґ РјР°СЃСЃРёРІР° РІ РєРѕРЅСЃРѕР»СЊ.
 template <typename T1>void Print(T1 array[], const int N)
 {
 	for (int i = 0; i < N; i++) cout << array[i] << " ";

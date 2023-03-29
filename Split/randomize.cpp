@@ -1,5 +1,5 @@
-#include "stdafx.h"
-//Генерация случайного числа из диапазона
+п»ї#include "stdafx.h"
+//Р“РµРЅРµСЂР°С†РёСЏ СЃР»СѓС‡Р°Р№РЅРѕРіРѕ С‡РёСЃР»Р° РёР· РґРёР°РїР°Р·РѕРЅР°
 int randomize(int start, int end)
 {
 	int random = 0;

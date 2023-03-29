@@ -1,5 +1,5 @@
-#pragma once
-//Генерация случайного числа из диапазона.
+п»ї#pragma once
+//Р“РµРЅРµСЂР°С†РёСЏ СЃР»СѓС‡Р°Р№РЅРѕРіРѕ С‡РёСЃР»Р° РёР· РґРёР°РїР°Р·РѕРЅР°.
 int randomize(int start, int end);
 double randomize(double start, double end);
 char randomize(char start, char end);
