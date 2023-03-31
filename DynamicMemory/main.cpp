@@ -1,5 +1,6 @@
-#include <iostream>
-using namespace std;
+#include "stdafx.h"
+#include "Print.h"
+#include "PushElemToArray.h"
 
 void main()
 {
@@ -12,10 +13,9 @@ void main()
 	{
 		*(arr + i) = rand() % 100;
 	}
-	for (int i = 0; i < n; i++)
-	{
-		cout << *(arr + i) << "\t";
-	}
+	Print(arr, n);
+	push_back(arr, n, rand() % 100);
+	Print(arr, n);
 	cout << endl;
 	delete[] arr;
 }
