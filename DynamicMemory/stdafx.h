@@ -1,4 +1,4 @@
-#pragma once
-//Подключаемые библиотеки
+п»ї#pragma once
+//РџРѕРґРєР»СЋС‡Р°РµРјС‹Рµ Р±РёР±Р»РёРѕС‚РµРєРё
 #include <iostream>
 using namespace std;

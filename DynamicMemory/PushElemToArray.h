@@ -1,5 +1,5 @@
-#pragma once
-//Добавление элемента в конец массива.
+п»ї#pragma once
+//Р”РѕР±Р°РІР»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° РІ РєРѕРЅРµС† РјР°СЃСЃРёРІР°.
 template <typename T1>void push_back(T1*& arr, int& N, T1 NewElem)
 {
 	T1* arr2 = new T1[N + 1];

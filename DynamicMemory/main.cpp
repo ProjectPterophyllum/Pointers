@@ -1,4 +1,4 @@
-#include "stdafx.h"
+ï»¿#include "stdafx.h"
 #include "Print.h"
 #include "PushElemToArray.h"
 
@@ -6,7 +6,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int n;
-	cout << "Ââåäèòå ðàçìåðà ìàññèâà: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€Ð° Ð¼Ð°ÑÑÐ¸Ð²Ð°: "; cin >> n;
 	int* arr = new int[n];
 
 	for (int i = 0; i < n; i++)
