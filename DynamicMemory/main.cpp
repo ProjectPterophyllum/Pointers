@@ -2,6 +2,7 @@
 #include "Print.h"
 #include "PushElemToArray.h"
 
+
 void main()
 {
 	setlocale(LC_ALL, "");
@@ -15,6 +16,12 @@ void main()
 	}
 	Print(arr, n);
 	push_back(arr, n, rand() % 100);
+	Print(arr, n);
+	push_front(arr, n, rand() % 100);
+	Print(arr, n);
+	pop_back(arr, n);
+	Print(arr, n);
+	pop_front(arr, n);
 	Print(arr, n);
 	cout << endl;
 	delete[] arr;
