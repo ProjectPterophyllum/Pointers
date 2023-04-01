@@ -1,5 +1,5 @@
 ﻿#pragma once
-//Добавление элемента в конец массива.
+//Добавление элемента в конец массива
 template <typename T1>void push_back(T1*& arr, int& N, T1 NewElem)
 {
 	T1* arr2 = new T1[N + 1];
@@ -9,6 +9,7 @@ template <typename T1>void push_back(T1*& arr, int& N, T1 NewElem)
 	delete[] arr;
 	arr = arr2;
 }
+//Добавление элемента в начало массива
 template <typename T1>void push_front(T1*& arr, int& N, T1 NewElem)
 {
 	T1* arr2 = new T1[N + 1];
@@ -19,6 +20,7 @@ template <typename T1>void push_front(T1*& arr, int& N, T1 NewElem)
 	delete[] arr;
 	arr = arr2;
 }
+//Удаление элемента из конца массива
 template <typename T1>void pop_back(T1*& arr, int& N)
 {
 	T1* arr2 = new T1[--N];
@@ -26,6 +28,7 @@ template <typename T1>void pop_back(T1*& arr, int& N)
 	delete[] arr;
 	arr = arr2;
 }
+//Удаление элемента из начала массива
 template <typename T1>void pop_front(T1*& arr, int& N)
 {
 	T1* arr2 = new T1[--N];
@@ -33,6 +36,7 @@ template <typename T1>void pop_front(T1*& arr, int& N)
 	delete[] arr;
 	arr = arr2;
 }
+//Добавление элемента по заданному индексу
 template <typename T1>void insert(T1*& arr, int& N, int pos, int value)
 {
 	T1* arr2 = new T1[N + 1];
@@ -42,6 +46,7 @@ template <typename T1>void insert(T1*& arr, int& N, int pos, int value)
 	delete[] arr;
 	arr = arr2;
 }
+//Удаление элемента по заданному индексу
 template <typename T1>void erase(T1*& arr, int& N, int pos)
 {
 	T1* arr2 = new T1[N - 1];
