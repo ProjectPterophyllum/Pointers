@@ -1,7 +1,7 @@
 ﻿#include "stdafx.h"
 #include "Print.h"
 #include "PushElemToArray.h"
-
+//Я изначально писал все функции шаблонизированными, поэтому, наверное, эту ветку мне можно было и не создавать, но по заданию я должен это сделать.
 void main()
 {
 	setlocale(LC_ALL, "");
