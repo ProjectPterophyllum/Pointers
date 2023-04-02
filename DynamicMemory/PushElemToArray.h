@@ -37,7 +37,7 @@ template <typename T1>void pop_front(T1*& arr, int& N)
 	arr = arr2;
 }
 //Добавление элемента по заданному индексу
-template <typename T1>void insert(T1*& arr, int& N, int pos, int value)
+template <typename T1>void insert(T1*& arr, int& N, int pos, T1 value)
 {
 	T1* arr2 = new T1[N + 1];
 	for (int i = 0; i < N; i++) i < pos ? arr2[i] = arr[i] : arr2[i + 1] = arr[i];
